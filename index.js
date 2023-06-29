@@ -8,4 +8,4 @@ app.get("/", (req, res) => {
 
 const port = 3001;
 
-app.listen(port, console.log(`the app is listening to port ${port}`))
+app.listen(port, console.log(`the app is running on port ${port}`))
